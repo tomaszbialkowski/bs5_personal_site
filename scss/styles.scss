@@ -30,6 +30,16 @@ bottom: 50px;
     width: 200px;
 }
 
+.progress {
+    height: 1.25rem;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    transition: all .3s ease-in-out;
+    opacity: 0.8;
+}
+
 @media(max-width: 767px) {
     .header .roles {
         font-size: 18px !important;
